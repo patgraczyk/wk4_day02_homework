@@ -9,11 +9,11 @@ class Game
     if @hand_1 == @hand_2
       return "It's a draw!"
     elsif @hand_1 == "rock" && @hand_2 == "paper"
-      return "Player 2 wins!"
+      return "player 2!"
     elsif @hand_1 == "paper" && @hand_2 == "scissors"
-      return "Player 2 wins!"
+      return "player 2!"
     elsif @hand_1 == "rock" && @hand_2 == "scissors"
-      return "Player 1 wins!"
+      return "player 1!"
     end
   end
 
